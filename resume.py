@@ -70,7 +70,7 @@ with st.container():
 if selected == "About":
     st.title("Education")
     education =[
-        {"degree": "Bachelor of technologyin Artificial Intelligence and Data Science", "image":r"images\kjsit.jpg", "university": "**K.J. Somaiya Institute of Technology, Mumbai**", "date": "2021 - 2025", "score": "CGPA: 8.6/10.0"}
+        {"degree": "Bachelor of technologyin Artificial Intelligence and Data Science", "image":"images/kjsit.jpg", "university": "**K.J. Somaiya Institute of Technology, Mumbai**", "date": "2021 - 2025", "score": "CGPA: 8.6/10.0"}
     ]
     
     for edu in education:
@@ -100,8 +100,8 @@ if selected == "About":
     }
 
     experience = [
-        {"role": "Research Intern","image":r"images\sirac_svu_logo.jpg", "company": "**Geofencing Centre for Achieving Sustainability, Climate Action, Development, and Engagement (CASCADE) Somaiya Institute for Research and Consultancy** ", "date": "Jun 2023 - Jun 2023", "description": description1["description 1"]},
-        {"role": "Data Science Intern","image":r"images\oenneo_logo.jpg", "company": "**KJSIT, Computer Engineering Department (in association with Claidroid Technologies Pvt. Ltd.)** ", "date": "Dec 2023 - Jan 2024", "description": description1["description 2"]}
+        {"role": "Research Intern","image":"images/sirac_svu_logo.jpg", "company": "**Geofencing Centre for Achieving Sustainability, Climate Action, Development, and Engagement (CASCADE) Somaiya Institute for Research and Consultancy** ", "date": "Jun 2023 - Jun 2023", "description": description1["description 1"]},
+        {"role": "Data Science Intern","image":"images/oenneo_logo.jpg", "company": "**KJSIT, Computer Engineering Department (in association with Claidroid Technologies Pvt. Ltd.)** ", "date": "Dec 2023 - Jan 2024", "description": description1["description 2"]}
     ]
     
     for exp in experience:
@@ -140,9 +140,9 @@ if selected == "About":
     with col6:
         st.title("My Certificates")
         certificates = [
-            {"title": "Machine Learning Specialization", "image":r"images\image.png", "link": "https://coursera.org/share/75c1c44aaf9f4aac25ed0e9ffaa171e8"},
-            {"title": "Applied Data Science with Python", "image":r"images\ibm_logo.jpg", "link": "https://skills.yourlearning.ibm.com/certificate/PLAN-B6CBEFCA2BFD"},
-            {"title": "Data Mining", "image":r"images\NPTEL.jpg", "link": "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS22S35030033830035499"}
+            {"title": "Machine Learning Specialization", "image":"images/image.png", "link": "https://coursera.org/share/75c1c44aaf9f4aac25ed0e9ffaa171e8"},
+            {"title": "Applied Data Science with Python", "image":"images/ibm_logo.jpg", "link": "https://skills.yourlearning.ibm.com/certificate/PLAN-B6CBEFCA2BFD"},
+            {"title": "Data Mining", "image":"images/NPTEL.jpg", "link": "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS22S35030033830035499"}
         ]
         for cert in certificates:
             with st.container():
@@ -163,8 +163,8 @@ elif selected == "Projects":
     }
 
     projects = [
-        {"title": "Stock Market Prediction using DL algorithms", "image":r"images\project_image.png", "description": description2["description 1"], "link": "l"},
-        {"title": "Stock Market Prediction using DL algorithms", "image":r"images\project_image.png", "description": "Description 1", "link": "l"}
+        {"title": "Stock Market Prediction using DL algorithms", "image":"images/project_image.png", "description": description2["description 1"], "link": "l"},
+        {"title": "Stock Market Prediction using DL algorithms", "image":"images/project_image.png", "description": "Description 1", "link": "l"}
     ]
 
     for project in projects:

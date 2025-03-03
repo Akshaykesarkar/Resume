@@ -3,3 +3,5 @@ streamlit_lottie
 streamlit_option_menu
 requests
 json
+smtplib
+email

@@ -126,16 +126,13 @@ if selected == "About":
 
         # GitHub Streak Stats Image (Replace 'your-username' with your actual GitHub username)
         github_username = "Akshaykesarkar"
-        st.image(f"https://github-readme-streak-stats.herokuapp.com/?user={github_username}&theme=white",
-                 caption="GitHub Streak Stats")
+        st.image(f"https://github-readme-streak-stats.herokuapp.com/?user={github_username}&theme=dark", caption="GitHub Streak Stats")
         
         st.title("My LeetCode Streak")
 
         # Replace 'your-username' with your actual LeetCode username
         leetcode_username = "akshaykesarkar268" 
-
-        st.image(f"https://leetcard.jacoblin.cool/{leetcode_username}?theme=light&ext=heatmap", 
-                caption="LeetCode Streak & Activity")
+        st.image(f"https://leetcard.jacoblin.cool/{leetcode_username}?theme=light&ext=heatmap", caption="LeetCode Streak & Activity")
         
     with col6:
         st.title("My Certificates")

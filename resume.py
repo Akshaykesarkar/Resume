@@ -54,7 +54,8 @@ with col1:
             I am a data enthusiast skilled in **Python, SQL, Data Analysis, Visualization, Big Data Handling, Machine Learning and Deep Learning**.
             I enjoy transforming data into insights and building AI-driven solutions.
             Currently seeking opportunities to apply my skills and grow in the field of data science and machine learning engineer. 🚀 
-            """)     
+            """)
+    st.link_button("🔗 Connect with me on LinkedIn", "https://www.linkedin.com/in/akshay-kesarkar-40060b285/")     
 with col2:
     st_lottie(lottie_animation)
     
@@ -126,13 +127,16 @@ if selected == "About":
 
         # GitHub Streak Stats Image (Replace 'your-username' with your actual GitHub username)
         github_username = "Akshaykesarkar"
-        st.image(f"https://github-readme-streak-stats.herokuapp.com/?user={github_username}&theme=light", caption="GitHub Streak Stats")
+        st.image(f"https://github-readme-streak-stats.herokuapp.com/?user={github_username}&theme=white",
+                 caption="GitHub Streak Stats")
         
         st.title("My LeetCode Streak")
 
         # Replace 'your-username' with your actual LeetCode username
         leetcode_username = "akshaykesarkar268" 
-        st.image(f"https://leetcard.jacoblin.cool/{leetcode_username}?theme=light&ext=heatmap", caption="LeetCode Streak & Activity")
+
+        st.image(f"https://leetcard.jacoblin.cool/{leetcode_username}?theme=light&ext=heatmap", 
+                caption="LeetCode Streak & Activity")
         
     with col6:
         st.title("My Certificates")
@@ -150,7 +154,7 @@ if selected == "About":
                     
                 with col8:
                     st.subheader(cert["title"])
-                    st.markdown(f"[🔗 View Certificate]({cert['link']})", unsafe_allow_html=True, )
+                    st.link_button("🔗 View Certificate", cert["link"])
                     
 elif selected == "Projects":
     st.title("My Projects")
@@ -174,7 +178,7 @@ elif selected == "Projects":
             with col10:
                 st.subheader(project["title"])
                 st.write(project["description"])
-                st.markdown(f"[🔗 View Project]({project['link']})", unsafe_allow_html=True)  
+                st.link_button("🔗 View Project", project["link"])  
 
 elif selected == "Contact":
     st.title("Contact Me")
@@ -196,7 +200,6 @@ elif selected == "Contact":
                         st.success(response)
                     else:
                         st.error("⚠ Please fill in all fields before submitting.")
-            
     
                 
 st.write("---")

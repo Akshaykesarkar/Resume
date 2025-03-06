@@ -47,7 +47,7 @@ col1,col2 = st.columns([2,2])
 
 with col1:
     st.write("##")
-    st.subheader("Hey Gays :wave:")
+    st.subheader("Hey Guys :wave:")
     st.title("I am Akshay Kesarkar")
     st.subheader("My Portfolio Website")
     st.write("""

@@ -127,8 +127,9 @@ if selected == "About":
 
         # GitHub Streak Stats Image (Replace 'your-username' with your actual GitHub username)
         github_username = "Akshaykesarkar"
-        st.image(f"https://github-readme-stats.vercel.app/api?username={github_username}&show_icons=true&theme=light",
+        st.image(f"https://github-readme-stats.vercel.app/api?username={github_username}&theme=light",
                  caption="GitHub Stats")
+        st.image(f"https://ghchart.rshah.org/Light/{github_username}", caption="GitHub Contribution Graph")
         
         st.title("My LeetCode Streak")
 

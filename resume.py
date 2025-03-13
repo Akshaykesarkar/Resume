@@ -167,7 +167,7 @@ elif selected == "Projects":
 
     projects = [
         {"title": "Stock Market Prediction using DL algorithms", "image":"project_image.png", "description": description2["description 1"], "link": "l"},
-        {"title": "Stock Market Prediction using DL algorithms", "image":"project_image.png", "description": "Description 1", "link": "https://portfolio-akshay-kesarkar.streamlit.app"}
+        {"title": "Stock Market Prediction using DL algorithms", "image":"project_image.png", "description": "Description 1", "link": "https://stockmarket-app-ak.streamlit.app/"}
     ]
 
     for project in projects:

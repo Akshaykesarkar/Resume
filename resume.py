@@ -6,6 +6,7 @@ from streamlit_option_menu import option_menu
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+import os
 
 def load_lottieurl(url):
     r = requests.get(url)

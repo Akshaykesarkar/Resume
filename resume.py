@@ -55,7 +55,12 @@ with col1:
             I enjoy transforming data into insights and building AI-driven solutions.
             Currently seeking opportunities to apply my skills and grow in the field of data science and machine learning engineer. 🚀 
             """)
-    st.link_button("🔗 Connect with me on LinkedIn", "https://www.linkedin.com/in/akshay-kesarkar-40060b285/")     
+    st.download_button(
+            label="📄 Download My Resume",
+            data=resume_file,
+            file_name="Akshay Kesarkar.pdf",
+            mime="application/pdf"
+        )   
 with col2:
     st_lottie(lottie_animation)
     

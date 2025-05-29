@@ -56,11 +56,11 @@ with col1:
             I enjoy transforming data into insights and building AI-driven solutions.
             Currently seeking opportunities to apply my skills and grow in the field of data science and machine learning engineer. 🚀 
             """)
-    with open("Akshay kesarkar.pdf", "rb") as resume_file:
+    with open("Akshay kesarkar cv.pdf", "rb") as resume_file:
         st.download_button(
             label="📄 Download My Resume",
             data=resume_file,
-            file_name="Akshay kesarkar.pdf",
+            file_name="Akshay kesarkar cv.pdf",
             mime="application/pdf"
         )   
 with col2:

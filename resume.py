@@ -179,7 +179,7 @@ elif selected == "Projects":
         {"title": "Stock Market Prediction using DL algorithms", "image":"project_image.png", "description": description2["description 1"], "link": "https://stockmarket-app-ak.streamlit.app/"},
         {"title": "Mental Health Chatbot", "image":"project_image.png", "description": description2["description 2"], "link": "https://github.com/Akshaykesarkar/Mental-health-chatbot"},
         {"title": "Real-time Incident Detection System", "image":"project_image.png", "description": description2["description 3"], "link": ""},
-        {"title": "AI-Powered Business Predictive Analytics", "image":"project_image.png", "description": description2["description 4"], "link": "https://business-predictive-analytics-ak.streamlit.app/"}
+        {"title": "AI-Powered Business Predictive Analytics", "image":"images.png", "description": description2["description 4"], "link": "https://business-predictive-analytics-ak.streamlit.app/"}
     ]
 
     for project in projects:

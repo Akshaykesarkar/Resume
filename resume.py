@@ -169,12 +169,17 @@ elif selected == "Projects":
     st.title("My Projects")
     
     description2 = {
-        "description 1":"This project uses **LSTM networks** for real-time stock price prediction by analyzing historical and live market data. It fetches **real-time stock prices** using APIs like **Yahoo Finance or Alpha Vantage** and processes them with **Pandas and NumPy**. The **LSTM model**, built with **TensorFlow/Keras**, learns patterns from past trends to generate future price forecasts. 🚀📈"
+        "description 1":"This project uses **LSTM networks** for real-time stock price prediction by analyzing historical and live market data. It fetches **real-time stock prices** using APIs like **Yahoo Finance or Alpha Vantage** and processes them with **Pandas and NumPy**. The **LSTM model**, built with **TensorFlow/Keras**, learns patterns from past trends to generate future price forecasts. 🚀📈",
+        "description 2":"Engineered a chatbot leveraging ANN techniques and JSON files, providing mental well-being support and resources. Created an interactive and visually appealing front-end for the chatbot using Streamlit, enabling seamless user interaction and real-time updates to mental health support and resources through a responsive and user-friendly web interface.",
+        "description 3":"Developed an advanced object detection system using the YOLOv8 AI model, enhancing real-time incident recognition for improved safety. Integrated Google Firebase and Streamlit to streamline data handling and provide a user-friendly interface, ensuring efficient and accessible system functionality",
+        "description 4":"Building a Streamlit-based platform that automates data cleaning, model selection, and business insights using ML and OpenAI LLMs for natural language interaction."
     }
 
     projects = [
         {"title": "Stock Market Prediction using DL algorithms", "image":"project_image.png", "description": description2["description 1"], "link": "https://stockmarket-app-ak.streamlit.app/"},
-        {"title": "Stock Market Prediction using DL algorithms", "image":"project_image.png", "description": "Description 1", "link": "l"}
+        {"title": "Mental Health Chatbot", "image":"project_image.png", "description": description2["description 2"], "link": "https://github.com/Akshaykesarkar/Mental-health-chatbot"},
+        {"title": "Real-time Incident Detection System", "image":"project_image.png", "description": description2["description 3"], "link": ""},
+        {"title": "AI-Powered Business Predictive Analytics", "image":"project_image.png", "description": description2["description 4"], "link": "https://business-predictive-analytics-ak.streamlit.app/"}
     ]
 
     for project in projects:
